@@ -2,7 +2,6 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Main from "./components/main";
-import Login from "./components/login";
 
 function App() {
   return (
@@ -11,7 +10,6 @@ function App() {
         <Router>
           <Routes>
             <Route exact path="/" element={<Main />} />
-            <Route path="/login" element={<Login />} />
           </Routes>
         </Router>
       </div>

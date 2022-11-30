@@ -1,29 +1,23 @@
-.main-box {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-image: url("../../backgound.jpg");
-  background-size: cover;
-  backface-visibility: hidden;
-  color: white;
-  opacity: 0.85;
+.word-cloud {
+  width: 50vw;
+
+  border-radius: 10px;
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.input-box {
+.button {
+  color: red;
 }
-.input-container {
-  border: 4px solid white;
-  border-style: dashed;
-  height: 70vh;
-  width: 80vw;
+.word-cloud-container {
+  height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.citi-code {
-  color: rgb(255, 187, 0);
-  font-size: 3rem;
-  font-weight: bolder;
+.input-para {
+  margin: auto;
+  width: 70vw;
 }
