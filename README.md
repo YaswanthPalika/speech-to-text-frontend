@@ -9,5 +9,5 @@ npm install
 npm start
 ```
 
-[![Watch the video](https://youtu.be/vt5fpE0bzSY](https://res.cloudinary.com/doaejwdmk/video/upload/v1669908819/speech_ug9tke.mp4)
+[![Watch the video](https://res.cloudinary.com/doaejwdmk/video/upload/v1669908819/speech_ug9tke.mp4)
 
