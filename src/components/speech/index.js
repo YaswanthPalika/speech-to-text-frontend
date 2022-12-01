@@ -28,14 +28,15 @@ const Dictaphone = () => {
       <button
         onClick={async () => {
           let details = { data: transcript };
-          const url = "https://speech-664t.onrender.com/";
+
+          const url = "https://speech-664t.onrender.com";
           details = JSON.stringify(details);
           const options = {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: details,
           };
-          console.log(options);
+          //console.log(options);
           const response = await fetch(url, options);
           const data = await response.json();
           let result = data.split(",");
