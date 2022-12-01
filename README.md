@@ -8,6 +8,5 @@ git clone https://github.com/YaswanthPalika/speech-to-text-frontend/
 npm install
 npm start
 ```
-
-[![Watch the video](https://res.cloudinary.com/doaejwdmk/video/upload/v1669908819/speech_ug9tke.mp4)
+refer the video https://res.cloudinary.com/doaejwdmk/video/upload/v1669908819/speech_ug9tke.mp4
 
