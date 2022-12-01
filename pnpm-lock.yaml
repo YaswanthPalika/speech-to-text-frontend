@@ -9,7 +9,7 @@ dependencies:
   react-bootstrap: 2.6.0_react-dom@18.2.0+react@18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-file-reader: 1.1.4
-  react-icons: 4.6.0_react@18.2.0
+  react-icons: 4.7.1_react@18.2.0
   react-loader-spinner: 5.3.4_react-dom@18.2.0+react@18.2.0
   react-router-dom: 6.4.3_react-dom@18.2.0+react@18.2.0
   react-scripts: 5.0.1_react@18.2.0
@@ -9064,14 +9064,14 @@ packages:
     dev: false
     resolution:
       integrity: sha512-xTeHFrDIopZpzk4aMZyILzIQbytQ6GCKR32/7kBDzO5lrAr1idbK5PkmpjP4wnT9s5F+TALviuhnWk8UeksddA==
-  /react-icons/4.6.0_react@18.2.0:
+  /react-icons/4.7.1_react@18.2.0:
     dependencies:
       react: 18.2.0
     dev: false
     peerDependencies:
       react: '*'
     resolution:
-      integrity: sha512-rR/L9m9340yO8yv1QT1QurxWQvWpbNHqVX0fzMln2HEb9TEIrQRGsqiNFQfiv9/JEUbyHmHPlNTB2LWm2Ttz0g==
+      integrity: sha512-yHd3oKGMgm7zxo3EA7H2n7vxSoiGmHk5t6Ou4bXsfcgWyhfDKMpyKfhHR6Bjnn63c+YXBLBPUql9H4wPJM6sXw==
   /react-is/16.13.1:
     dev: false
     resolution:
@@ -11192,7 +11192,7 @@ specifiers:
   react-bootstrap: ^2.6.0
   react-dom: ^18.2.0
   react-file-reader: ^1.1.4
-  react-icons: ^4.6.0
+  react-icons: ^4.7.1
   react-loader-spinner: ^5.3.4
   react-router-dom: ^6.4.3
   react-scripts: 5.0.1
