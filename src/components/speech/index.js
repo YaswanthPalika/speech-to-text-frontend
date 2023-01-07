@@ -11,6 +11,7 @@ const Dictaphone = () => {
   const [isMicOff, setMicOff] = React.useState(false);
   const [isLoading, setLoading] = React.useState(false);
 
+
   const {
     transcript,
     listening,
