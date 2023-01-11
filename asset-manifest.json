@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/speech-to-text-frontend/static/css/main.eb30c589.css",
-    "main.js": "/speech-to-text-frontend/static/js/main.fada77bc.js",
+    "main.css": "/speech-to-text-frontend/static/css/main.e3f10487.css",
+    "main.js": "/speech-to-text-frontend/static/js/main.ee4568d2.js",
     "static/js/787.c4e7f8f9.chunk.js": "/speech-to-text-frontend/static/js/787.c4e7f8f9.chunk.js",
     "index.html": "/speech-to-text-frontend/index.html",
-    "main.eb30c589.css.map": "/speech-to-text-frontend/static/css/main.eb30c589.css.map",
-    "main.fada77bc.js.map": "/speech-to-text-frontend/static/js/main.fada77bc.js.map",
+    "main.e3f10487.css.map": "/speech-to-text-frontend/static/css/main.e3f10487.css.map",
+    "main.ee4568d2.js.map": "/speech-to-text-frontend/static/js/main.ee4568d2.js.map",
     "787.c4e7f8f9.chunk.js.map": "/speech-to-text-frontend/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb30c589.css",
-    "static/js/main.fada77bc.js"
+    "static/css/main.e3f10487.css",
+    "static/js/main.ee4568d2.js"
   ]
 }
