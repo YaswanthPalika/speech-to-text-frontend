@@ -3,8 +3,7 @@ import React, { useState, useEffect } from "react";
 import { Bars } from "react-loader-spinner";
 import { TagCloud } from "react-tagcloud";
 import { FaMicrophone } from "react-icons/fa";
-
-
+/**------------------------------------------------------------------this is the main file------------------------------------------------------*/
 const SpeechRecognition =
   window.SpeechRecognition || window.webkitSpeechRecognition
 const mic = new SpeechRecognition()
@@ -17,18 +16,24 @@ const Dictaphone1 = () => {
   const [keyData, setKeyData] = React.useState([])
   const [isListening, setIsListening] = useState(false)
   const [note, setNote] = useState(null)
+  const [count,setCount] = useState(0)
   const [isLoading, setLoading] = React.useState(false)
 
   useEffect(() => {
     handleListen()
+    if(count === 0){
+       setTimeout(() => {
+        setIsListening(true)
+       }, 3000);
+      setCount(1)
+    }
   }, [isListening])
 
   const handleListen = () => {
     if (isListening) {
       mic.start()
       mic.onend = () => {
-        console.log('continue..')
-        mic.start()
+        console.log('continue...')
       }
     } else {
       mic.stop()
